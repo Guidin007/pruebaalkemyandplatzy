@@ -1,5 +1,6 @@
 # pruebaalkemyandplatzy
 This is my first demo proyect  in Github
+# https://www.youtube.com/watch?v=8ASjvOIyyl8&t=1035s
 # ----  Código utilizado en jupiterlab para la limpieza de datos, solo queda reemplazar el nombre del .csv y que este comando se encuentre en la misma carpeta donde se encuentran los archivos a limpiar para que no salga error.
 # import pandas as pd
 
@@ -33,3 +34,13 @@ This is my first demo proyect  in Github
 # ----------------------------------
 # Este te permite seleccionar guardar los archivos en CSV una vez realizada la limpieza
 # df.to_csv("salas_cine_limpio-03-11-2021.csv")
+
+# COn este comando podras colocar las ganancias de cualquiera colunma en este caso se selecciono butacas como ejemplo y tambien te crea una nueva columna con el nombre de ganancias.
+<!-- import random
+def calcularGanancias(butacas):
+    ganancia = butacas * random.randint (3, 5)
+    return ganancia
+
+df ["ganancias"]= df ["butacas"].apply(calcularGanancias)
+
+df.head(10) -->
