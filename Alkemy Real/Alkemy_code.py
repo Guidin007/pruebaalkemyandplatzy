@@ -47,12 +47,12 @@ print(data)
 # Comando adecuado para leer los archivos csv. que se encuentran para el desarrollo del caso.
 import pandas as pd 
 
-museo= pd.read_csv(r"C:\Users\grman\BA1\pruebaalkemyandplatzy\Alkemy Real\Museo\2023-11\museos_limpios_datosabiertos-03-11-2021.csv")
+museo= pd.read_csv(r"G:\Mi unidad\Analitica de datos DS4\BA\Pruebas de fuego BA\120123_copia_BA1\pruebaalkemyandplatzy\Alkemy Real\Museo\2023-11\museos_limpios_datosabiertos-03-11-2021.csv")
 print("\nour CSV file= \n", museo)
 
-cine= pd.read_csv(r"C:\Users\grman\BA1\pruebaalkemyandplatzy\Alkemy Real\Cine\2021-11\salas_cine_limpio-03-11-2021.csv")
+cine= pd.read_csv(r"G:\Mi unidad\Analitica de datos DS4\BA\Pruebas de fuego BA\120123_copia_BA1\pruebaalkemyandplatzy\Alkemy Real\Cine\2021-11\salas_cine_limpio-03-11-2021.csv")
 print("\nour CSV file= \n", cine)
 
-biblioteca= pd.read_csv(r"C:\Users\grman\BA1\pruebaalkemyandplatzy\Alkemy Real\Biblioteca\2021-11\biblioteca_limpios_popular-03-11-2021.csv")
+biblioteca= pd.read_csv(r"G:\Mi unidad\Analitica de datos DS4\BA\Pruebas de fuego BA\120123_copia_BA1\pruebaalkemyandplatzy\Alkemy Real\Biblioteca\2021-11\biblioteca_limpios_popular-03-11-2021.csv")
 print("\nour CSV file= \n", biblioteca)
 
