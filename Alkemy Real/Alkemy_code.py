@@ -1,7 +1,7 @@
 #Obtener los 3 archivos de fuente utilizando la librería requests y almacenarse en forma local (Ten en cuenta que las urls pueden cambiar en un futuro):
 
-import csv
-from os import lstat
+# import csv
+# from os import lstat
 
 import requests
 museo="https://datos.gob.ar/dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d" 
@@ -45,6 +45,8 @@ print(data)
 #     print(linea)
 
 # Comando adecuado para leer los archivos csv. que se encuentran para el desarrollo del caso.
+# Diagrama del caso https://dbdesigner.page.link/dDDC39Xq6iiM89wS7 
+
 import pandas as pd 
 
 museo= pd.read_csv(r"G:\Mi unidad\Analitica de datos DS4\BA\Pruebas de fuego BA\120123_copia_BA1\pruebaalkemyandplatzy\Alkemy Real\Museo\2023-11\museos_limpios_datosabiertos-03-11-2021.csv")
