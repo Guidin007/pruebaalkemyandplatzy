@@ -1,4 +1,5 @@
 # pruebaalkemyandplatzy
+# Diagrama de relación de tablas ingresar aqui https://app.dbdesigner.net/designer/schema/new y esta aqui el final https://dbdesigner.page.link/dDDC39Xq6iiM89wS7
 This is my first demo proyect  in Github
 # https://www.youtube.com/watch?v=8ASjvOIyyl8&t=1035s
 # ----  Código utilizado en jupiterlab para la limpieza de datos, solo queda reemplazar el nombre del .csv y que este comando se encuentre en la misma carpeta donde se encuentran los archivos a limpiar para que no salga error.

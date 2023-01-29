@@ -45,7 +45,7 @@ print(data)
 #     print(linea)
 
 # Comando adecuado para leer los archivos csv. que se encuentran para el desarrollo del caso.
-# Diagrama del caso https://dbdesigner.page.link/dDDC39Xq6iiM89wS7 
+# Diagrama del caso https://dbdesigner.page.link/dDDC39Xq6iiM89wS7
 
 import pandas as pd 
 
